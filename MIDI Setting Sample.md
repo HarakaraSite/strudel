@@ -41,7 +41,7 @@ $:note("c2 a2 f2 e2")
   .control([74, sine.slow(4)])
   .midi().midichan(2)
 ```
-```
+```javascript
 ////////////////
 //strudel as midi controller
 //xln life
@@ -72,4 +72,4 @@ $: note("10").midi()
   .ccv(berlin.seg(64).slow(18)) //cc value
   .ccn(4) //cc number
 
-```javascript
+```
